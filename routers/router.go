@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"parking-hub/controllers"
+	"web-admin/controllers"
 	"github.com/astaxie/beego"
 )
 

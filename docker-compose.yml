@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  parking-hub-service:
+    container_name: parking-hub-dashboard
+    build:
+      context: .
+    image: parking-hub-dashboard:1.0
+    ports:
+      - "80:80"

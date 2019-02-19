@@ -1,7 +1,7 @@
 package main
 
 import (
-	_ "parking-hub/routers"
+	_ "web-admin/routers"
 
 	"github.com/astaxie/beego"
 )
