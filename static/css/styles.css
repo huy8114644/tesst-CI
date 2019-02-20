@@ -95,7 +95,7 @@ html, body {
   font-weight: 500;
 }
 .demo-layout .demo-navigation .mdl-navigation__link:hover {
-  background-color: #00BCD4;
+  background-color: #e0e0e0;
   color: #37474F;
 }
 .demo-navigation .mdl-navigation__link .material-icons {
@@ -214,3 +214,20 @@ _:-ms-input-placeholder, :root .demo-graph {
       -ms-flex-align: center;
           align-items: center;
 }
+
+.demo-table {
+  width: 100%;
+}
+
+.demo-table th {
+  text-align: left;
+}
+
+.demo-table td {
+  text-align: left;
+}
+
+.mdl-selectfield__label {
+  color: #666666 !important;
+}
+
