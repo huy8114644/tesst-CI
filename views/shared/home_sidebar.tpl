@@ -1,6 +1,6 @@
-<header class="demo-header mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-600">
+<header class="demo-header mdl-layout__header">
    <div class="mdl-layout__header-row">
-      <i class="mdl-color-text--red-600 material-icons">{{ .ImageLabel }}</i>&emsp;
+      <i class="mdl-color-text--white material-icons">{{ .ImageLabel }}</i>&emsp;
       <span class="toolbar-title mdl-layout-title">{{ .Title }}</span>
       <div class="mdl-layout-spacer"></div>
       <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="hdrbtn">
@@ -31,11 +31,11 @@
       </div>
    </header>
    <nav class="demo-navigation mdl-navigation">
-      <a class="mdl-navigation__link" href="/"><i class="mdl-color-text--white material-icons" role="presentation">drive_eta</i>Xe ra vào</a>
-      <a class="mdl-navigation__link" href="/driver"><i class="mdl-color-text--white material-icons" role="presentation">person_outline</i>Tài xế</a>
-      <a class="mdl-navigation__link" href="/"><i class="mdl-color-text--white material-icons" role="presentation">recent_actors</i>Tải sản</a>
-      <a class="mdl-navigation__link" href="/"><i class="mdl-color-text--white material-icons" role="presentation">scatter_plot</i>Hub</a>
-      <a class="mdl-navigation__link" href="/"><i class="mdl-color-text--white material-icons" role="presentation">event_note</i>Ca làm việc</a>
+      <a class="mdl-navigation__link" href="/"><i class="mdl-color-text--red-600 material-icons" role="presentation">drive_eta</i>Xe ra vào</a>
+      <a class="mdl-navigation__link" href="/driver"><i class="mdl-color-text--red-600 material-icons" role="presentation">person_outline</i>Tài xế</a>
+      <a class="mdl-navigation__link" href="/"><i class="mdl-color-text--red-600 material-icons" role="presentation">recent_actors</i>Tải sản</a>
+      <a class="mdl-navigation__link" href="/"><i class="mdl-color-text--red-600 material-icons" role="presentation">scatter_plot</i>Hub</a>
+      <a class="mdl-navigation__link" href="/"><i class="mdl-color-text--red-600 material-icons" role="presentation">event_note</i>Ca làm việc</a>
       <div class="mdl-layout-spacer"></div>
    </nav>
 </div>
