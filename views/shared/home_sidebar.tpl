@@ -4,7 +4,7 @@
       <span class="toolbar-title mdl-layout-title">{{ .Title }}</span>
       <div class="mdl-layout-spacer"></div>
       <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="hdrbtn">
-      <i class="material-icons">more_vert</i>
+      <i class="mdl-color-text--white material-icons">more_vert</i>
       </button>
       <ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" for="hdrbtn">
          <li class="mdl-menu__item">About</li>
