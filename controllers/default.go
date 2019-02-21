@@ -9,7 +9,9 @@ type MainController struct {
 }
 
 func (c *MainController) Get() {
-	c.Data["Website"] = "beego.me"
-	c.Data["Email"] = "astaxie@gmail.com"
-	c.TplName = "index.tpl"
+	c.Layout = "index.tpl"
+	c.LayoutSections = make(map[string]string)
+	c.LayoutSections["HomeHead"] = "shared/home_head.tpl"
+	c.LayoutSections["HomeSidebar"] = "shared/home_sidebar.tpl"
+	c.TplName = "home/home_content.tpl"
 }
