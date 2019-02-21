@@ -2,7 +2,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-<title>Material Design Lite</title>
+<title>Parking hub</title>
 <!-- Add to homescreen for Chrome on Android -->
 <meta name="mobile-web-app-capable" content="yes">
 <link rel="icon" sizes="192x192" href="images/android-desktop.png">
@@ -20,12 +20,6 @@
 <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-light_blue.min.css">
 <link rel="stylesheet" href="https://cdn.rawgit.com/kybarg/mdl-selectfield/mdl-menu-implementation/mdl-selectfield.min.css">
 <link rel="stylesheet" href="../static/css/styles.css">
-
-<script>
-  $(function () {
-    $('#datetimepicker1').datetimepicker();
- });
-</script>
 <style>
   #view-source {
     position: fixed;

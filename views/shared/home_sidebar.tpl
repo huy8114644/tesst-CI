@@ -1,16 +1,8 @@
 <header class="demo-header mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-600">
    <div class="mdl-layout__header-row">
-      <span class="mdl-layout-title">Xe ra vào</span>
+      <i class="mdl-color-text--red-600 material-icons">drive_eta</i>&emsp;
+      <span class="toolbar-title mdl-layout-title">Xe ra vào</span>
       <div class="mdl-layout-spacer"></div>
-      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
-         <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
-         <i class="material-icons">search</i>
-         </label>
-         <div class="mdl-textfield__expandable-holder">
-            <input class="mdl-textfield__input" type="text" id="search">
-            <label class="mdl-textfield__label" for="search">Enter your query...</label>
-         </div>
-      </div>
       <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="hdrbtn">
       <i class="material-icons">more_vert</i>
       </button>
@@ -39,11 +31,11 @@
       </div>
    </header>
    <nav class="demo-navigation mdl-navigation">
-      <a class="mdl-navigation__link" href="#"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">drive_eta</i>Xe ra vào</a>
-      <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">person_outline</i>Tài xế</a>
-      <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">recent_actors</i>Tải sản</a>
-      <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">scatter_plot</i>Hub</a>
-      <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">event_note</i>Ca làm việc</a>
+      <a class="mdl-navigation__link" href="/"><i class="mdl-color-text--white material-icons" role="presentation">drive_eta</i>Xe ra vào</a>
+      <a class="mdl-navigation__link" href="/driver"><i class="mdl-color-text--white material-icons" role="presentation">person_outline</i>Tài xế</a>
+      <a class="mdl-navigation__link" href="/"><i class="mdl-color-text--white material-icons" role="presentation">recent_actors</i>Tải sản</a>
+      <a class="mdl-navigation__link" href="/"><i class="mdl-color-text--white material-icons" role="presentation">scatter_plot</i>Hub</a>
+      <a class="mdl-navigation__link" href="/"><i class="mdl-color-text--white material-icons" role="presentation">event_note</i>Ca làm việc</a>
       <div class="mdl-layout-spacer"></div>
    </nav>
 </div>

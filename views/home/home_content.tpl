@@ -15,7 +15,7 @@
       </div>
 
        <!-- Flat button with ripple -->
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+      <button class="red-buttton mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
         <i class="material-icons">check_circle_outline</i>&emsp;
         Áp dụng
       </button>
