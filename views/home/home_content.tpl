@@ -19,8 +19,6 @@
         <i class="material-icons">check_circle_outline</i>&emsp;
         Áp dụng
       </button>
-
-     
       
       <table class="demo-table mdl-data-table mdl-js-data-table">
         <thead>
