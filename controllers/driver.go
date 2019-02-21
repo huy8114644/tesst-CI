@@ -13,5 +13,7 @@ func (c *DriverController) Get() {
 	c.LayoutSections = make(map[string]string)
 	c.LayoutSections["HomeHead"] = "shared/home_head.tpl"
 	c.LayoutSections["HomeSidebar"] = "shared/home_sidebar.tpl"
-	c.TplName = "navigation/nav_verhicle_io.tpl"
+	c.Data["Title"] = "Tài xế"
+	c.Data["ImageLabel"] = "person_outline"
+	c.TplName = "navigation/nav_driver.tpl"
 }

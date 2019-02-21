@@ -1,7 +1,7 @@
 <header class="demo-header mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-600">
    <div class="mdl-layout__header-row">
-      <i class="mdl-color-text--red-600 material-icons">drive_eta</i>&emsp;
-      <span class="toolbar-title mdl-layout-title">Xe ra vào</span>
+      <i class="mdl-color-text--red-600 material-icons">{{ .ImageLabel }}</i>&emsp;
+      <span class="toolbar-title mdl-layout-title">{{ .Title }}</span>
       <div class="mdl-layout-spacer"></div>
       <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="hdrbtn">
       <i class="material-icons">more_vert</i>

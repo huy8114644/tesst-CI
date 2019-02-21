@@ -80,8 +80,8 @@ html, body {
   font-weight: 500;
 }
 .demo-layout .demo-navigation .mdl-navigation__link:hover {
-  background-color: #e0e0e0;
-  color: #37474F;
+  background-color: #e06464;
+  color: #ffffff;
 }
 .demo-navigation .mdl-navigation__link .material-icons {
   font-size: 24px;
@@ -224,5 +224,41 @@ _:-ms-input-placeholder, :root .demo-graph {
 .red-buttton {
   color: #ffffff;
   background-color: #B90504; 
+}
+
+.driver-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+}
+
+.search-card {
+  min-height: 0;
+  margin: auto;
+  
+  width: 100%;
+
+  @media screen and (min-width: 768px) {
+    width: 650px;
+  }
+}
+ 
+.search-card .mdl-textfield {
+  margin: auto;
+  padding: 10px;
+  width: 100%;
+}
+
+.search-card .mdl-textfield__input {
+  border: 0;
+}
+
+.search-card .material-icons {
+  position: absolute;
+}
+
+.search-card .material-icons + .mdl-textfield__input {
+  padding-left: 29px;
+  box-sizing: border-box;
 }
 
