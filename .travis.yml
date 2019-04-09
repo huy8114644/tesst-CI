@@ -1,0 +1,9 @@
+sudo: required
+services:
+ - docker
+
+before_install:
+ - docker build -t web-admin .
+
+script:
+ - docker run --name web-admin web-admin
