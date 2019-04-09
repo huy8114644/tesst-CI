@@ -6,4 +6,4 @@ before_install:
  - docker build -t web-admin .
 
 script:
- - docker run --name web-admin web-admin
+ - docker run --name web-admin -p 80:80 web-admin
